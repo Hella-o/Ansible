@@ -1,0 +1,8 @@
+- name: Secondplay
+  hosts: myvm
+  tasks:
+   - name:  create folder
+     file: 
+       path: ~/ansible/demo1
+       state: directory
+  

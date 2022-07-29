@@ -1,0 +1,10 @@
+- name: My first trial
+  hosts: localhost
+  tasks:
+   - name: Print message
+     ansible.builtin.debug:
+       msg: visitme
+   - name:  create 
+     file: 
+       path: /Users/Hella.Ogobene/ansible/ansible2/alas
+       state: directory
